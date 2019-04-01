@@ -1,0 +1,5 @@
+GetNormalRandomNumbers <- function(NumbersRequired)
+{
+  NormalRandomNumbers <- rnorm(NumbersRequired, 0, 1)
+  return(NormalRandomNumbers)
+}
